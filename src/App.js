@@ -1,3 +1,10 @@
+/*
+dependecies:
+https://www.npmjs.com/package/react-addons-transition-group
+https://www.npmjs.com/package/@fortawesome/fontawesome-free-solid
+https://www.npmjs.com/package/gsap
+*/
+
 import React, { Component } from 'react';
 import styles from './index.css';
 import { YearDrop } from './components/yeardrop.js';
