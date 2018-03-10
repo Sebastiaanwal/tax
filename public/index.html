@@ -26,6 +26,23 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+    <script>
+
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-104184289-1', 'auto');
+
+// Replace the following lines with the plugins you want to use.
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+ga('require', 'urlChangeTracker');
+ga('require', 'pageVisibilityTracker');
+
+
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="%PUBLIC_URL%/node_modules/autotrack/autotrack.js"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
